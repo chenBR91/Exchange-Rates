@@ -23,3 +23,12 @@ export const getDetailForexController = ('/', async (req, res) => {
 })
 
 
+// export const renderForexController = ('/', async (req, res) => {
+//     try {
+//         const data = await renderForex('USD');
+//         console.log(data);
+//     }
+//     catch(err) {
+//         res.status(500).json({'error': err});
+//     }
+// })
